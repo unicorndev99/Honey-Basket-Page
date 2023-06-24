@@ -1,0 +1,166 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #ffc217;
+}
+img
+{
+    position: fixed;
+    width: 110%;
+    left: 0%;
+    top: -22%;
+}
+#one
+{
+    left: 18%;
+    top: 10%;
+    width: 90%;
+}
+#logo
+{
+    position: fixed;
+    width: 30%;
+    left: -7%;
+    top: -9%;
+}
+.menu
+{
+    position: fixed;
+    left: 10%;
+    top: 4%;
+}
+.menu ul
+{
+    display: inline-flex;
+}
+.menu ul li
+{
+    display: inline-flex;
+    color: #39210e;
+    background: none;
+    font-size: 1em;
+    padding: 5px 30px;
+    margin-right: 10px;
+    font-family: Arial;
+    font-weight: 700;
+}
+.box
+{
+    position: fixed;
+    top: 20%;
+    left: 5%;
+}
+.box h1
+{
+    font-family: Arial;
+    color: #39210e;
+    font-size: 3.4em;
+    width: 28%;
+    height: 128;
+    margin-top: 10;
+    font-weight: 900;
+}
+.box p
+{
+    width: 28%;
+    font-family: Arial;
+    font-size: 0.8em;
+}
+.box button
+{
+    background: none;
+    border: 2px solid #39210e;
+    border-radius: 25px;
+    padding: 12px 45px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10;
+    margin-left: 7%;
+}
+.buttle
+{
+position: fixed;
+background: #fedc87;
+width: 40%;
+height: 20%;
+top: 85%;
+left: -10%;
+border-radius: 20px;
+z-index: 0;
+}
+.buttle h1
+{
+    font-size: 0.9em;
+    margin-left: 65%;
+    font-family: Arial;
+    height: 5;
+    color: rgb(46, 46, 46);
+}
+.buttle h2
+{
+    font-size: 1.5em;
+    margin-left: 65%;
+    font-family: Arial;
+    height: 10;
+}
+.buttle h3
+{
+    font-size: 0.8em;
+    margin-left: 68%;
+    font-family: Arial;
+    color: rgb(46, 46, 46);
+}
+#butlle
+{
+    position: fixed;
+    top: 72%;
+    width: 30%;
+    left: -7%;
+    z-index: 1;
+    transition: 1s;
+}
+#butlle:hover
+{
+    transform: rotate(12deg);
+}
+.icon ul
+{
+    position: absolute;
+    top: 47%;
+    left: 91%;
+}
+.icon ul img
+{
+    position: relative;
+    width: 60px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 10px 0px;
+}
+.search-box
+{
+    position: absolute;
+    left: 75%;
+    top: 5%;
+}
+.search-txt
+{
+    background: none;
+    border: 2px solid black;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    display: flex;
+    outline: none;
+}
+.search-box a img
+{
+    position: absolute;
+    width: 50%;
+    left: 80%;
+    margin-top: -20%;
+}
